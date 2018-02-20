@@ -1,0 +1,8 @@
+
+<div *ngIf="item">
+  <h1>Oto parametry urządzenia o numerze seryjnym {{item.serialNumber}}:</h1>
+  <div  *ngFor="let parameter of item.parameters">
+  <h2>{{parameter.descriptionParameter}} : {{parameter.value}}</h2>
+  </div>
+</div>
+

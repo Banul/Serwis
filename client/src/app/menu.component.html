@@ -1,0 +1,48 @@
+
+
+<h2 style="color:black" class ="headertekst" >Service Items</h2>
+
+<ul class="list-unstyled">
+    <li *ngFor="let item of itemList | slice:0:1 let i=index" class="col-md-4">
+<a href="/lodowka"> <div class="rectangle1">{{item.type}} 
+    <br>
+<i class="icon-food"></i>
+
+</div>
+</a>
+
+        <li *ngFor="let item of itemList | slice:1:2 let i=index" class="col-md-4">
+<a href="/pralka">
+<div class="rectangle2">{{item.type}} 
+     <br>
+<i class="icon-water"></i>
+ </div>
+</a>
+
+        <li *ngFor="let item of itemList | slice:2:3 let i=index" class="col-md-4">
+            <a href="/telewizor">
+ <div class="rectangle3">{{item.type}} 
+<br>
+<i class="icon-monitor"></i> 
+
+ </div>
+</a>
+
+    <li *ngFor="let item of itemList | slice:3:4 let i=index" class="col-md-6">
+        <a href="/kuchenka">
+ <div class="rectangle4">{{item.type}} 
+    <br>
+    <i class="icon-fire"></i>
+ </div>
+</a>
+
+ <li *ngFor="let item of itemList | slice:4:5 let i=index" class="col-md-6">
+     <a href="/komputer">
+ <div class="rectangle5">{{item.type}}
+<br>
+ <i class="icon-laptop-1"></i>      
+
+</div>
+     </a>
+</ul>
+

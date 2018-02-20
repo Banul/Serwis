@@ -1,0 +1,30 @@
+
+<div class="container">
+  <h2>Urządzenia: </h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Numer seryjny</th>
+        <th>Status</th>
+        <th>Opis</th>
+        <th>Pokaż szczegóły</th>
+        <th>Zmień status</th>
+      </tr>
+    </thead>
+<tbody *ngFor="let item of itemList; let i=index">
+    <tr>
+        <td>{{i+1}}</td>
+        <td>{{item.serialNumber}}
+        <td>{{item.status}} </td>
+        <td>{{item.description}}</td>
+        <td><button (click)="showDetails(item)" type="button" class="btn btn-success">Pokaż szczegóły</button></td>
+        <td><button (click)="update(item)" type="button" class="btn btn-success">Zmień status </button></td>
+    </tr>
+   </tbody>
+ </table>
+    <lodowka-szczegoly [item]="pressedItem"></lodowka-szczegoly>
+
+</div>
+
+  

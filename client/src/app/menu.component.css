@@ -1,0 +1,111 @@
+
+.rectangle1
+{
+	margin-inline-start: 3%;
+	margin-inline-end: 3%;
+	margin-top:10%;
+	width: 80%;
+	height:200px;
+	background-color:#3095d3;
+	text-align:center;
+	display: inline-block;
+	font-size:60px;
+	color: black;
+
+}
+
+
+
+.rectangle2
+{
+	margin-top:10%;
+	width: 80%;
+	height:200px;
+	background-color:red;
+	text-align:center;
+	display: inline-block;
+	font-size:60px;
+	color: black;
+
+
+}
+
+.rectangle3
+{
+	margin-top:10%;
+	width: 80%;
+	height:200px;
+	background-color:green;
+	text-align:center;
+	display: inline-block;
+	font-size:60px;
+	color: black;
+
+
+}
+
+
+.rectangle4
+{
+	padding: 0;
+	margin-inline-start: 25%;
+	margin-top:10%;
+	width: 60%;
+	height:200px;
+	background-color:gray;
+	text-align:center;
+	margin-top:50px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size:60px;
+	color: black;
+
+
+}
+
+
+.rectangle5
+{
+	margin-top:50px;
+	width: 60%;
+	height:200px;
+	background-color:yellow;
+	text-align:center;
+	display: inline-block;
+	font-size:60px;
+	color: black;
+
+}
+
+
+h2.headertekst {
+  text-align: center;
+  font-size: 5em;
+}
+
+.circle5:hover
+{
+	background-color:#ffff99;
+}
+
+.circle1:hover
+{
+	background-color: #80bfff;
+}
+
+.circle2:hover
+{
+ background-color: #ff6666;
+}
+
+.circle3:hover
+{
+ background-color:#00cc44;
+
+}
+
+.circle4:hover
+{
+	background-color: #c2c2d6;
+}
+

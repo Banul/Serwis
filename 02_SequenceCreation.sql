@@ -1,0 +1,53 @@
+CREATE SEQUENCE public.category_ID_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+ALTER SEQUENCE public.category_ID_seq
+    OWNER TO postgres;
+	
+
+CREATE SEQUENCE public.Parameter_ID_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE public.Parameter_ID_seq
+    OWNER TO postgres;
+	
+
+CREATE SEQUENCE public.Item_ID_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE public.Item_ID_seq
+    OWNER TO postgres;
+	
+	CREATE SEQUENCE public.User_ID_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE public.User_ID_seq
+    OWNER TO postgres;
+	
+	
+	CREATE SEQUENCE public.Role_ID_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE public.Role_ID_seq
+    OWNER TO postgres;
+
+  
